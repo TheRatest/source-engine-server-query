@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
 	std::string szPort = "";
 	std::string szOutputFile = "";
 	bool bShowPlayers = false;
-	bool bShowRules = true;
+	bool bShowRules = false;
 	// CLI Args
 	for (int iArg = 1; iArg < argc; ++iArg) {
 		if (strcmp(argv[iArg], "-a") == 0 || strcmp(argv[iArg], "-address") == 0 || strcmp(argv[iArg], "-addr") == 0) {
